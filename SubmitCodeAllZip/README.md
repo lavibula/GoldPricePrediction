@@ -1,4 +1,4 @@
-DS2023.1 PredictionBitcoin
+DS2023.1 Gold Price Prediction
 
 ### Member: 
 - Nguyen Minh Cuong: cuong.nm210140@sis.hust.edu.vn,
