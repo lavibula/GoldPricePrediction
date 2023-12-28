@@ -13,23 +13,22 @@ SORT ACCORDING **R2_TEST**:
 | Adaboost          | 0.9989    | 7.6105     | 0.3304%    | 0.9468     | 23.0224    | 0.9565%  |
 
 
-Based on the general performance summary of the models => Analyze the performance results of the models *GOLD PRICE PREDICTION*:
+Analyzing the performance of *BITCOIN PRICE PREDICTION* models
 
-**Overview**
+**Overall**
 
-Results from the data table show that the models have quite high performance in predicting Gold prices. Models such as Linear Regression, Random Forest, GRU, KNN and Adaboost all have high R2 values ​​on both the training and test sets, with Linear Regression giving the highest performance.
+Results from the data table show that the models with high performance in predicting Gold prices are: Linear Regression, Random Forest, GRU, KNN and Adaboost all have high R2 values ​​on both the training set and test set, RMSE and MAPE% indicate accurate prediction with minimal error. This proves the reason: Gold is often sought by investors as a safe haven asset. Among them, linear regression gives the best performance.
 
-1. **Linear regression**
-The best performance on the Test Set with R2 is 0.9991, indicating that the model is highly accurate in predicting gold prices, with an R2 index close to 1.
-RMSE and MAPE% are also relatively low, indicating that the model has high accuracy and low prediction error.
+**Analysis of different types of models used**
+*Experiments show:*
 
-2. **Random Forest**
-The model has high accuracy. However, performance on the Test Set has an R2 of 0.9911, slightly lower than Linear Regression, and higher RMSE and MAPE% than Linear Regression, suggesting that the error of predictions can be large than the Linear Regression model.
+1. The machine learning models we use are Linear Regression and KNN. Linear regression achieved the best performance on the test set with an R2 of 0.9991, relatively low RMSE and MAPE% indicating that the model has high accuracy and low prediction error. It can be hypothesized that this is due to good data normalization and the presence of a linear relationship between different economic and market factors. Linear regression gives much better performance than KNN, because KNN usually does not perform well in high-dimensional datasets, in addition the KNN model is also sensitive to the number of neighbors which is difficult to determine in this case .
 
-3. **GRU** (a type of recurrent neural network) gives relatively good results, but not as good as Linear Regression or Random Forest, with an R2 value lower than 0.9706 and RMSE and MAPE errors % higher on test set.
+2. Ensemble learning models including bagging methods like Random Forest and boosting methods like AdaBoost, show good performance especially Random Forest method. This is because Random Forests typically use a large number of decision trees, each with relatively high depth, allowing them to learn complex rules and make effective use of relationships between object features. physical. On the other hand, AdaBoost in particular and other boosting methods such as LightGBM, XGBoost, CatBoost also work well but require adjusting the number and depth of trees for optimal results. The Random Forest model has high accuracy, slightly lower than Linear Regression.
 
-4. **KNN** and **Adaboost** have lower performance than other models, as shown by lower R2 values ​​and higher RMSE and MAPE% errors on the test set and test set.
+3. Deep Learning models, here we use GRU (a type of recurrent neural network) which gives relatively good results, but not as good as Linear Regression or Random Forest, with an R2 value lower than 0.9706 and higher RMSE and MAPE% errors on the test set. GRU still has room for improvement, due to time and resource constraints, we have not been able to tune parameters or create more complex neural networks to maximize model performance.
 
-**Conclude**
 
-Among the tested models, Linear Regression is the best model to predict gold prices based on this data, with accurate and stable performance on both the training and test sets. Random Forest shows high performance on the training set, but the results on the test set are slightly worse than the Linear Regression model. Other models such as GRU, KNN and Adaboost, although they have certain predictive ability, do not show optimal performance compared to the first two models.
+**Conclusion**
+
+Among the tested models, Linear Regression is the best model to predict gold prices based on this data, with accurate and stable performance on both the training and test sets. Random Forest shows high performance on the training set, but the results on the test set are slightly worse than the Linear Regression model. Other models such as GRU, KNN and Adaboost, although they have certain predictive ability, do not show optimal performance compared to the first two models. Deep learning models like GRU demonstrate good performance and have the potential for further improvements, but they require longer training times and resource-consuming parameter tuning.
