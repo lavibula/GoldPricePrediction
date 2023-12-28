@@ -125,9 +125,9 @@ def predict_price(
     inputs_except_gold_close = get_inputs(input_data, exclude_gold_close=True)
     inputs_knn=get_inputs_knn(input_data)
     results = {}
-    adaboost = load(r"C:\Users\Laptop K1\Downloads\model (1)")
+    adaboost = load(r"C:\Users\Laptop K1\Downloads\Adaboost.pkl")
     knn=load(r"C:\Users\Laptop K1\Downloads\KNN.pkl")
-    random_forest=load(r"C:\Users\Laptop K1\Downloads\best_grid_1")
+    random_forest=load(r"C:\Users\Laptop K1\Downloads\Random_Forest.pkl")
     ridge=load(r"C:\Users\Laptop K1\Downloads\ridge_model.pkl")
     results["Gold Price pridicted by Adaboost"] = str(adaboost.predict(inputs))
     results["Gold Price pridicted by KNN"] = str(knn.predict(inputs_knn))
