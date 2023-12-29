@@ -7,7 +7,9 @@ Step 2: Change the data file source path in each model, we put it in the second 
 Step 3: Run model, the result evaluation and graph for compare actual and predict price in train and test appear at the end of each model
 
 ## Demo
-Đợi Minh Cường :)) 
+![img](https://github.com/lavibula/GoldPricePrediction/blob/origin/DNCuong/SubmitCodeAllZip/demo/demo_image_1.png)
+
+![img](https://github.com/lavibula/GoldPricePrediction/blob/origin/DNCuong/SubmitCodeAllZip/demo/demo_image_2.png)
 
 ## 🤝  Code Contributors
 - Nguyen Minh Cuong: cuong.nm210140@sis.hust.edu.vn,
@@ -17,4 +19,6 @@ Step 3: Run model, the result evaluation and graph for compare actual and predic
 - Doan Ngoc Cuong: cuong.dn210141@sis.hust.edu.vn
 
 This project exists thanks to all the people who contribute.
-<a href="https://github.com/lavibula/ML20222.PredictionBitcoin/graphs/contributors"><img src="https://opencollective.com/ml20222predictionbitcoin/contributors.svg?width=890&button=false" /></a>
+<a href="[https://github.com/lavibula//graphs/contributors](https://github.com/lavibula/GoldPricePrediction/graphs/contributors)"><img src="https://opencollective.com/ml20222predictionbitcoin/contributors.svg?width=890&button=false" /></a>
+
+
