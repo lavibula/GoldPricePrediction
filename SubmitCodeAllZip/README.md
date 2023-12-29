@@ -7,7 +7,9 @@ Step 2: Change the data file source path in each model, we put it in the second 
 Step 3: Run model, the result evaluation and graph for compare actual and predict price in train and test appear at the end of each model
 
 ## Demo
-![img](SubmitCodeAllZip/demo/demo_image_1.png)
+![img](https://github.com/lavibula/GoldPricePrediction/blob/origin/DNCuong/SubmitCodeAllZip/demo/demo_image_1.png)
+
+![img](https://github.com/lavibula/GoldPricePrediction/blob/origin/DNCuong/SubmitCodeAllZip/demo/demo_image_2.png)
 
 ## 🤝  Code Contributors
 - Nguyen Minh Cuong: cuong.nm210140@sis.hust.edu.vn,
