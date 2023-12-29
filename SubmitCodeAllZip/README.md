@@ -19,4 +19,6 @@ Step 3: Run model, the result evaluation and graph for compare actual and predic
 - Doan Ngoc Cuong: cuong.dn210141@sis.hust.edu.vn
 
 This project exists thanks to all the people who contribute.
-<a href="https://github.com/lavibula/ML20222.PredictionBitcoin/graphs/contributors"><img src="https://opencollective.com/ml20222predictionbitcoin/contributors.svg?width=890&button=false" /></a>
+<a href="[https://github.com/lavibula//graphs/contributors](https://github.com/lavibula/GoldPricePrediction/graphs/contributors)"><img src="https://opencollective.com/ml20222predictionbitcoin/contributors.svg?width=890&button=false" /></a>
+
+
