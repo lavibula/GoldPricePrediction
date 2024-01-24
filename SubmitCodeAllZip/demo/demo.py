@@ -133,5 +133,5 @@ def predict_price(
     results["Gold Price pridicted by KNN"] = str(knn.predict(inputs_knn))
     results["Gold Price pridicted by Random_forest"] = str(random_forest.predict(inputs_except_gold_close ))
     results["Gold Price pridicted by Ridge Regression"] = str(ridge.predict(inputs_except_gold_close ))
-z
+
     return results
